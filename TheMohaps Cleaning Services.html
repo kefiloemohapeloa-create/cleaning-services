@@ -1,0 +1,257 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071b3f">
+  <meta name="description" content="TheMohaps Cleaning Services provides professional corporate, residential complex, office and accommodation cleaning in Roodepoort and Johannesburg.">
+  <title>TheMohaps Cleaning Services | Premium Cleaning in Johannesburg</title>
+  <style>
+    :root{--navy:#071b3f;--navy2:#102b55;--gold:#d6b66a;--goldlight:#f0dfad;--white:#fffdf8;--muted:#c8d0df;--ink:#17243a}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;font-family:Inter,"Segoe UI",Arial,sans-serif;color:var(--white);background:var(--navy);line-height:1.65}
+    a{color:inherit;text-decoration:none}.container{width:min(1140px,calc(100% - 40px));margin:auto}
+    .topbar{background:#051531;border-bottom:1px solid rgba(214,182,106,.28);font-size:.88rem}
+    .topbar-inner{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;padding:8px 0;color:var(--muted)}
+    .topbar a{color:var(--goldlight)}
+    header{position:sticky;top:0;z-index:10;background:rgba(7,27,63,.97);backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.09)}
+    .nav{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+    .brand{display:flex;align-items:center;gap:12px}.brand img{width:55px;height:55px;object-fit:cover;border-radius:50%;border:2px solid var(--gold)}
+    .brand-name{font-family:Georgia,serif;font-size:1.05rem;font-weight:bold;line-height:1.2}.brand-name span{display:block;color:var(--gold);font:700 .65rem Arial,sans-serif;letter-spacing:.15em;text-transform:uppercase;margin-top:5px}
+    .nav-links{display:flex;align-items:center;gap:24px;font-size:.92rem}.nav-links a:hover{color:var(--goldlight)}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:5px;font-weight:750;border:1px solid var(--gold);transition:transform .2s,background .2s;cursor:pointer}
+    .button:hover{transform:translateY(-2px)}.button-gold{color:#101d34;background:linear-gradient(135deg,var(--goldlight),var(--gold))}.button-outline{color:var(--white);background:transparent}
+    .hero{position:relative;overflow:hidden;padding:82px 0;background:radial-gradient(ellipse at 85% 15%,rgba(214,182,106,.15),transparent 35%),linear-gradient(135deg,#071b3f,#0b2853 58%,#071b3f)}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:55px;position:relative;z-index:1}
+    .eyebrow{color:var(--goldlight);text-transform:uppercase;letter-spacing:.2em;font-weight:800;font-size:.76rem}
+    h1,h2,h3{line-height:1.13}h1{font:clamp(2.7rem,5vw,4.65rem)/1.08 Georgia,"Times New Roman",serif;letter-spacing:-.035em;margin:18px 0 22px}
+    h1 em{color:var(--gold);font-weight:400}.hero p{color:#d5ddec;font-size:1.08rem;max-width:600px;margin:0 0 28px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-points{display:flex;gap:22px;flex-wrap:wrap;margin-top:28px;color:#e1e6ef;font-size:.9rem}
+    .hero-points span:before{content:"✦";color:var(--gold);margin-right:8px}
+    .logo-card{padding:18px;background:rgba(255,255,255,.06);border:1px solid rgba(214,182,106,.45);border-radius:16px;box-shadow:0 25px 65px rgba(0,0,0,.22)}
+    .logo-card img{display:block;width:100%;border-radius:10px}.logo-caption{text-align:center;color:var(--goldlight);letter-spacing:.12em;font-size:.72rem;text-transform:uppercase;margin-top:12px}
+    .trust-strip{background:var(--gold);color:#13213a}.trust-inner{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:18px 0;text-align:center;font-weight:750}.trust-inner span{display:flex;align-items:center;justify-content:center;gap:9px}
+    section{padding:78px 0}.section-light{background:var(--white);color:var(--ink)}.section-dark{background:#091f45}
+    .section-head{max-width:720px;margin:0 auto 40px;text-align:center}.section-head .eyebrow{color:#a9873c}
+    h2{font:clamp(2rem,3.6vw,3.05rem)/1.12 Georgia,serif;letter-spacing:-.025em;margin:12px 0 15px}
+    .section-head p{color:#637086;margin:0}.section-dark .section-head p{color:var(--muted)}
+    .services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+    .service-card{padding:26px 22px;border:1px solid #e4e6eb;background:#fff;border-radius:10px;box-shadow:0 12px 35px rgba(7,27,63,.055);transition:transform .2s,box-shadow .2s}
+    .service-card:hover{transform:translateY(-5px);box-shadow:0 18px 40px rgba(7,27,63,.12)}
+    .service-icon{width:52px;height:52px;display:grid;place-items:center;border-radius:50%;background:#f7f0df;color:#8d6a25;font-size:1.5rem;margin-bottom:18px}
+    .service-card h3{font:700 1.25rem Georgia,serif;margin:0 0 11px;color:var(--navy)}.service-card p{font-size:.94rem;color:#667186;margin:0 0 17px}
+    .card-link{font-weight:800;color:#8d6a25;font-size:.9rem}.card-link:hover{text-decoration:underline}
+    .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}
+    .about-panel{padding:34px;border:1px solid rgba(214,182,106,.45);border-radius:12px;background:linear-gradient(145deg,#102b55,#071b3f)}
+    .about-panel .large-mark{font:4.5rem Georgia,serif;color:var(--gold);line-height:1}
+    .about-panel h3{font:1.6rem Georgia,serif;margin:15px 0 10px}.about-panel p{color:var(--muted);margin:0}
+    .about-copy p{color:#d5ddec}.checks{list-style:none;padding:0;margin:22px 0 0;display:grid;gap:12px}.checks li:before{content:"✓";color:var(--gold);font-weight:900;margin-right:12px}
+    .process-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.process-card{padding:25px;border-top:2px solid var(--gold);background:rgba(255,255,255,.045)}
+    .step{font:2rem Georgia,serif;color:var(--gold)}.process-card h3{font:1.3rem Georgia,serif;margin:8px 0}.process-card p{color:var(--muted);font-size:.95rem;margin:0}
+    .cta{background:linear-gradient(110deg,#d6b66a,#f0dfad);color:#101d34;padding:48px 0}.cta-inner{display:flex;align-items:center;justify-content:space-between;gap:24px}.cta h2{font-size:2.2rem;margin:0 0 8px}.cta p{margin:0;color:#3f4652}.button-dark{background:var(--navy);color:white;border-color:var(--navy);white-space:nowrap}
+    .contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:42px}.contact-details{display:grid;gap:16px;margin-top:25px}.contact-item{display:flex;gap:14px;align-items:flex-start}.contact-icon{width:42px;height:42px;flex:0 0 42px;display:grid;place-items:center;border:1px solid rgba(214,182,106,.5);border-radius:7px;color:var(--gold);font-size:1.1rem}.contact-item strong{display:block}.contact-item span,.contact-item a{color:var(--muted);overflow-wrap:anywhere}
+    form{background:#102b55;padding:28px;border:1px solid rgba(214,182,106,.35);border-radius:10px}
+    .form-row{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font-size:.88rem;margin:0 0 6px;color:#f0f2f6}
+    input,select,textarea{width:100%;padding:12px 13px;background:#071b3f;border:1px solid #375074;border-radius:5px;color:white;font:inherit;margin-bottom:16px}
+    input:focus,select:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}textarea{min-height:115px;resize:vertical}
+    .form-note{color:#c8d0df;font-size:.82rem;margin:12px 0 0}
+    footer{background:#04122b;border-top:1px solid rgba(214,182,106,.3);padding:25px 0;color:#aeb9cb;font-size:.88rem}
+    .footer-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.footer-inner strong{color:white}.footer-links{display:flex;gap:18px}.footer-links a:hover{color:var(--goldlight)}
+    .mobile-cta{display:none}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr .72fr;gap:28px}.services-grid{grid-template-columns:repeat(2,1fr)}.nav-links{gap:13px}.about-grid{gap:30px}}
+    @media(max-width:680px){.container{width:min(100% - 30px,540px)}.topbar-inner{justify-content:center;text-align:center}.nav{min-height:72px}.brand img{width:45px;height:45px}.brand-name{font-size:.9rem}.nav-links{display:none}.nav>.button{padding:10px 12px;font-size:.85rem}.hero{padding:56px 0}.hero-grid,.about-grid,.contact-grid{grid-template-columns:1fr}.hero-grid{gap:35px}.hero h1{font-size:clamp(2.65rem,12vw,3.7rem)}.logo-card{max-width:400px;margin:auto}.trust-inner{grid-template-columns:1fr;gap:8px;padding:15px 0}.trust-inner span{justify-content:flex-start}.services-grid{grid-template-columns:1fr}.service-card{padding:24px}.process-grid{grid-template-columns:1fr}.cta-inner{align-items:flex-start;flex-direction:column}.cta h2{font-size:1.9rem}section{padding:58px 0}.form-row{grid-template-columns:1fr;gap:0}.footer-inner{justify-content:center;text-align:center}.mobile-cta{display:flex;position:fixed;bottom:12px;left:12px;right:12px;z-index:20;box-shadow:0 8px 24px rgba(0,0,0,.35)}body{padding-bottom:68px}}
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Premium cleaning for homes, workplaces &amp; properties</span>
+      <span>Johannesburg · Roodepoort &nbsp; | &nbsp; <a href="tel:+27621692917">062 1689 2917</a></span>
+    </div>
+  </div>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="TheMohaps Cleaning Services home">
+        <img src="TheMohaps_cleaning.jpeg" alt="TheMohaps Cleaning Services logo">
+        <span class="brand-name">TheMohaps<span>Cleaning Services</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#services">Services</a><a href="#about">About Us</a><a href="#process">Our Approach</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="button button-gold" href="#contact">Request a Quote</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div>
+          <div class="eyebrow">A higher standard of clean</div>
+          <h1>Thoughtful cleaning.<br><em>Exceptional spaces.</em></h1>
+          <p>Welcome to TheMohaps Cleaning Services — your partner for polished workplaces, well-kept residential properties and beautifully refreshed accommodation across Roodepoort and Johannesburg.</p>
+          <div class="hero-actions">
+            <a class="button button-gold" href="#contact">Get a Cleaning Quote <span aria-hidden="true">↗</span></a>
+            <a class="button button-outline" href="https://wa.me/27621692917?text=Hello%20TheMohaps%20Cleaning%20Services%2C%20I%27d%20like%20to%20request%20a%20cleaning%20quote." target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+          <div class="hero-points"><span>Professional service</span><span>Detail-focused care</span><span>Tailored cleaning plans</span></div>
+        </div>
+        <div class="logo-card">
+          <img src="TheMohaps_cleaning.jpeg" alt="TheMohaps Cleaning Services emblem">
+          <div class="logo-caption">Clean spaces · Healthier lives</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-strip">
+      <div class="container trust-inner">
+        <span>✦ Corporate &amp; Commercial Care</span><span>✦ Residential Property Cleaning</span><span>✦ Wider Johannesburg areas</span>
+      </div>
+    </div>
+
+    <section class="section-light" id="services">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">What we do best</div>
+          <h2>Cleaning solutions for every space</h2>
+          <p>Reliable, carefully considered cleaning services designed around your property, your schedule and your standards.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">♜</div>
+            <h3>Corporate Cleaning</h3>
+            <p>Professional cleaning support for business premises, shared spaces and commercial environments that deserve a consistently polished finish.</p>
+            <a class="card-link" href="#contact" data-service="Corporate Cleaning">Enquire about this service ↗</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">⌂</div>
+            <h3>Residential Complexes</h3>
+            <p>Thoughtful care for communal areas, entrances, corridors, stairways and other shared spaces in residential developments.</p>
+            <a class="card-link" href="#contact" data-service="Residential Complexes">Enquire about this service ↗</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">▤</div>
+            <h3>Office Cleaning</h3>
+            <p>Fresh, tidy workspaces with attention to desks, meeting rooms, kitchens, washrooms and high-traffic areas.</p>
+            <a class="card-link" href="#contact" data-service="Office Cleaning">Enquire about this service ↗</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon" aria-hidden="true">✧</div>
+            <h3>Accommodation Cleaning</h3>
+            <p>Welcoming, guest-ready spaces with detail-focused cleaning for accommodation properties, rooms and changeovers.</p>
+            <a class="card-link" href="#contact" data-service="Accommodation Cleaning">Enquire about this service ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-dark" id="about">
+      <div class="container about-grid">
+        <div class="about-panel">
+          <div class="large-mark">“</div>
+          <h3>Clean spaces.<br>Healthier lives.</h3>
+          <p>We believe a clean environment can make a meaningful difference to how people work, live and feel.</p>
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow">TheMohaps difference</div>
+          <h2>Care you can see in every detail.</h2>
+          <p>At TheMohaps Cleaning Services, our focus is on helping clients maintain clean, comfortable and professional spaces. From business premises to residential complexes and accommodation, we aim to make every clean feel considered and complete.</p>
+          <ul class="checks">
+            <li>Cleaning plans tailored to your property's needs</li>
+            <li>Attention to detail in shared and high-use areas</li>
+            <li>Clear communication from enquiry to service</li>
+            <li>Serving wider Johannesburg area</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-light" id="process">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Simple from the start</div>
+          <h2>Our approach</h2>
+          <p>A straightforward process to help us understand your space and recommend the right cleaning support.</p>
+        </div>
+        <div class="process-grid">
+          <article class="process-card"><div class="step">01</div><h3>Tell us what you need</h3><p>Share your property type, cleaning priorities and preferred schedule.</p></article>
+          <article class="process-card"><div class="step">02</div><h3>Get a tailored quote</h3><p>We’ll discuss the details with you so the proposed service fits your space.</p></article>
+          <article class="process-card"><div class="step">03</div><h3>Enjoy a fresher space</h3><p>Agree on the plan and let us help keep your environment looking its best.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta-inner">
+        <div><h2>Ready for a cleaner space?</h2><p>Tell us about your property and request a personalised quote.</p></div>
+        <a class="button button-dark" href="https://wa.me/27621692917?text=Hello%20TheMohaps%20Cleaning%20Services%2C%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener">Chat on WhatsApp ↗</a>
+      </div>
+    </section>
+
+    <section class="section-dark" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <div class="eyebrow">Let's talk</div>
+          <h2>Request your cleaning quote</h2>
+          <p>Send us a few details and your email app will open with a prepared enquiry for our team.</p>
+        </div>
+        <div class="contact-grid">
+          <div>
+            <h3 style="font:1.65rem Georgia,serif;margin:0">We’d love to hear from you.</h3>
+            <p style="color:var(--muted)">Whether you manage an office, a residential complex or accommodation, let's discuss how we can help.</p>
+            <div class="contact-details">
+              <div class="contact-item"><div class="contact-icon">⌖</div><div><strong>Service area</strong><span>Johannesburg Areas South Africa</span></div></div>
+              <div class="contact-item"><div class="contact-icon">✉</div><div><strong>Email</strong><a href="mailto:kefiloemohapeloa@gmail.com">kefiloemohapeloa@gmail.com</a></div></div>
+              <div class="contact-item"><div class="contact-icon">◉</div><div><strong>WhatsApp / Phone</strong><a href="https://wa.me/27621692917" target="_blank" rel="noopener">062 169 2917</a></div></div>
+            </div>
+          </div>
+          <form id="quoteForm">
+            <div class="form-row">
+              <div><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required placeholder="Full name"></div>
+              <div><label for="phone">Phone number</label><input id="phone" name="phone" autocomplete="tel" required placeholder="Your contact number"></div>
+            </div>
+            <label for="service">Service required</label>
+            <select id="service" name="service" required>
+              <option value="">Choose a service</option><option>Corporate Cleaning</option><option>Residential Complexes</option><option>Office Cleaning</option><option>Accommodation Cleaning</option><option>Other / Multiple Services</option>
+            </select>
+            <label for="property">Property / area details</label><input id="property" name="property" placeholder="e.g. office in Roodepoort">
+            <label for="message">Tell us a little more</label><textarea id="message" name="message" placeholder="Preferred schedule, size of property or any specific requirements"></textarea>
+            <button class="button button-gold" type="submit">Prepare Email Enquiry ↗</button>
+            <p class="form-note">This form opens your email application; it does not send or store your details on this website.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>TheMohaps Cleaning Services</strong><br>Clean spaces · Healthier lives</div>
+      <div>© <span id="year"></span> TheMohaps Cleaning Services. All rights reserved.</div>
+      <div class="footer-links"><a href="#services">Services</a><a href="#contact">Contact</a><a href="https://wa.me/27621692917" target="_blank" rel="noopener">WhatsApp</a></div>
+    </div>
+  </footer>
+  <a class="button button-gold mobile-cta" href="https://wa.me/27621692917?text=Hello%20TheMohaps%20Cleaning%20Services%2C%20I%27d%20like%20a%20cleaning%20quote." target="_blank" rel="noopener">WhatsApp TheMohaps · 062 169 2917</a>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('[data-service]').forEach(link => {
+      link.addEventListener('click', () => {
+        const select = document.getElementById('service');
+        select.value = link.dataset.service;
+      });
+    });
+    document.getElementById('quoteForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+      const data = new FormData(this);
+      const subject = encodeURIComponent('Cleaning quote enquiry - ' + data.get('service'));
+      const body = encodeURIComponent(
+        'Hello TheMohaps Cleaning Services,\\n\\nI would like to request a cleaning quote.\\n\\n' +
+        'Name: ' + data.get('name') + '\\nPhone: ' + data.get('phone') +
+        '\\nService: ' + data.get('service') + '\\nProperty / area: ' + (data.get('property') || 'Not specified') +
+        '\\nDetails: ' + (data.get('message') || 'Not specified') + '\\n\\nThank you.'
+      );
+      window.location.href = 'mailto:kefiloemohapeloa@gmail.com?subject=' + subject + '&body=' + body;
+    });
+  </script>
+</body>
+</html>
